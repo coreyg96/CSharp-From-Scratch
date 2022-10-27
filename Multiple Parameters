@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int length = Convert.ToInt32(Console.ReadLine());
+            int height = Convert.ToInt32(Console.ReadLine());
+            
+            
+            //Output
+            Console.WriteLine(Area(length,height));
+        }
+        //complete the method
+        static int Area(int height, int length)
+        {
+            
+            return length * height;
+        }
+    }
+}
